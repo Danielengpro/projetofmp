@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro de Cliente</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card card-register mx-auto col-8 px-0">
+            <div class="card-header bg-primary">Cadastro de Cliente</div>
+            <div class="card-body">
+                <form action="cadastroCliente.php" method="POST">
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col-12">
+                                <label for="nome">Nome completo</label>
+                                <input type="text" name="nome" class="form-control"
+                                    placeholder="Digite seu nome completo">
+                            </div>
+                            <div class="col-12">
+                                <label for="telefone">Telefone</label>
+                                <input type="text" name="telefone" class="form-control"
+                                    placeholder="Digite seu telefone">
+                            </div>
+                            <div class="col-12">
+                                <label for="endereco">Endereço</label>
+                                <input type="text" name="endereco" class="form-control"
+                                    placeholder="Digite seu endereço">
+                            </div>
+
+                            <div class="col-6">
+                                <label for="servico1">Descrição do serviço</label>
+                                <input type="text" name="servico1" class="form-control"
+                                    placeholder="Digite o serviço 1">
+                            </div>
+                            <div class="col-6">
+                                <label for="metragem1">Metragem</label>
+                                <input type="text" name="metragem1" class="form-control"
+                                    placeholder="Digite a metragem 1">
+                            </div>
+                            <div class="col-6">
+                                <label for="material1">Material</label>
+                                <input type="text" name="material1" class="form-control"
+                                    placeholder="Digite o material 1">
+                            </div>
+                            <div class="col-6">
+                                <label for="data_inicio">Data do serviço</label>
+                                <input type="text" name="data_inicio" class="form-control" placeholder="Digite a data">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-block">Cadastrar</button>
+                    <div class="text-center">
+                        <a href="index.html" class="d-block mt-3">Página inicial</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
